@@ -26,22 +26,30 @@ h4 {
     /*background-repeat: repeat no-repeat;*/
     overflow: hidden;
     text-align: center;
+    padding-top: 85px;
 }
 
 .image{
     border-radius: 50%;
-    border: 8px solid yellow;
+    border: 8px solid white;
 }
 
 .social {
     display: flex;
     justify-content: space-evenly;
     border-top: 1px solid #e8e8e8;
-    
+    padding: 10px 0;
+}
+
+.social h3 {
+    font-size: 22px;
 }
 
 .social h3 small {
+    margin-top: 8px;
     display: block;
-    color: var(--dark-grayish-blue);
+    color: #9d9ca3;
     font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
