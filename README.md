@@ -1,4 +1,4 @@
-# **SITE:** https://jhonabanguera.github.io/Profile-card-component-challenge/
+**SITE:** https://jhonabanguera.github.io/Profile-card-component-challenge/
 
 # Frontend Mentor - Profile card component
 
