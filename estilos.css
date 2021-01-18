@@ -26,15 +26,17 @@ h2 {
 }
 
 .cuerpo {
+background: url(images/bg-pattern-top.svg) right calc(50% + 520px) top -500px no-repeat, url(images/bg-pattern-bottom.svg) bottom 245% left calc(50% + 460px) no-repeat;
 background-color: var(--dark-cyan);
-background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
-background-repeat: no-repeat;
-background-position: left -30% top 140%, right -30% bottom 215%;
-padding: 50px;
-padding-top: 150px;
+background-origin: content-box;
 font-family: 'Kumbh Sans', sans-serif;
 display: flex;
 justify-content: center;
+align-items: center;
+min-height: 720px;
+max-width: 1440px;
+margin: 0 auto;
+text-align: center;
 }
 
 h4 {
