@@ -1,11 +1,35 @@
+:root{
+--dark-cyan: hsl(185, 75%, 39%);
+--very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--dark-grayish-blue: hsl(227, 10%, 46%);
+}
+
 h1 {
-    color: red;
+    color: var(--very-dark-desaturated-blue);
+    margin: 0;
 }
 
 .cuerpo {
-color: green;
+background: var(--dark-cyan);
+padding: 50px;
 }
 
 h4 {
-    color: blue;
+    color:var(--dark-cyan);
+}
+
+.card{
+    border-radius: 20px;
+    background: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+.image{
+    border-radius: 50px;
+}
+
+.social > *{
+    display: inline;
+    
 }
