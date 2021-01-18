@@ -29,8 +29,9 @@ h2 {
 background-color: var(--dark-cyan);
 background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
 background-repeat: no-repeat;
-background-position: left -20% top 140%, right -20% bottom 250%;
+background-position: left -30% top 140%, right -30% bottom 215%;
 padding: 50px;
+padding-top: 150px;
 font-family: 'Kumbh Sans', sans-serif;
 display: flex;
 justify-content: center;
