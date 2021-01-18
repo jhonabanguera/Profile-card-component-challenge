@@ -7,12 +7,33 @@
 h1 {
     color: var(--very-dark-desaturated-blue);
     margin: 0;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+h1 span {
+    color: #9d9ca3;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+h2 {
+    color: #9d9ca3;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .cuerpo {
-background: var(--dark-cyan);
+background-color: var(--dark-cyan);
+background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+background-repeat: no-repeat;
+background-position: left -20% top 140%, right -20% bottom 250%;
 padding: 50px;
 font-family: 'Kumbh Sans', sans-serif;
+display: flex;
+justify-content: center;
 }
 
 h4 {
@@ -27,6 +48,9 @@ h4 {
     overflow: hidden;
     text-align: center;
     padding-top: 85px;
+    max-width: 375px;
+    flex-shrink: 0;
+    flex-grow: 1;
 }
 
 .image{
