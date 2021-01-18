@@ -12,6 +12,7 @@ h1 {
 .cuerpo {
 background: var(--dark-cyan);
 padding: 50px;
+font-family: 'Kumbh Sans', sans-serif;
 }
 
 h4 {
@@ -20,16 +21,27 @@ h4 {
 
 .card{
     border-radius: 20px;
-    background: white;
+    background: white url(./images/bg-pattern-card.svg) repeat-x;
+    /*background-size:*/
+    /*background-repeat: repeat no-repeat;*/
     overflow: hidden;
     text-align: center;
 }
 
 .image{
-    border-radius: 50px;
+    border-radius: 50%;
+    border: px solid yellow;
 }
 
-.social > *{
-    display: inline;
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #e8e8e8;
     
+}
+
+.social h3 small {
+    display: block;
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
 }
